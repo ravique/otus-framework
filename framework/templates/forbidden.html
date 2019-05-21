@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>403 Forbidden</title>
+</head>
+<body>
+<h1>403 Forbidden</h1>
+<h2>Your method: {{ context.request_method }}</h2>
+<h2>Allowed methods: {% for method in context.allowed_methods %}{{ method }}{% if not loop.last %}, {% endif %}{% endfor %}
+</h2>
+</body>
+</html>
