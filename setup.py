@@ -12,6 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ravique/otus-framework",
+    py_modules={'wsgi'},
     packages=setuptools.find_packages(),
     install_requires=[
         'Jinja2==2.10.1',
