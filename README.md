@@ -4,7 +4,7 @@ Very simple and tiny MTV-style, Django-(a little bit)-like web-framework. Allows
 Handles 404 and 403 pages.  
 Distributed with example views and templates.
 
-[== DEMO ==](otus.space-coding.com)
+[== DEMO ==](http://otus.space-coding.com)
 
 **<Attention!>** This module was made by mad-skilled student. Never use it in production. I said "NEVER". :) **</Attention!>**
 
