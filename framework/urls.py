@@ -1,5 +1,6 @@
 import framework.views
 
+
 urls = {
     '/':
         {'view': framework.views.mainpage_view,

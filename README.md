@@ -23,7 +23,7 @@ $ pip install git+https://github.com/ravique/otus-framework.git
 2. Install requirements:
 
 ```
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Or install Jinja2 manually:
@@ -47,7 +47,7 @@ module = wsgi:app
 
 To create a web-page you need:
 - Create view function for your page in framework/views.py. Function must have first positional 
-argument 'request' and return bytes string in list.
+argument 'request' string.
 **Example:**
 ```
 def base_view(request, **kwargs):

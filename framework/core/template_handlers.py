@@ -7,4 +7,4 @@ env = Environment(
 
 
 def render_template(template, **kwargs):
-    return template.render(**kwargs).encode()
+    return template.render(**kwargs)
