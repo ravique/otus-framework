@@ -15,7 +15,7 @@ setuptools.setup(
     py_modules={'wsgi'},
     packages=setuptools.find_packages(),
     install_requires=[
-        'Jinja2==2.10.1',
+        'Jinja2==2.11.3',
     ],
     license="MIT",
 )
